@@ -489,7 +489,8 @@ def main(conn=None):
         fail(_("Don't know how to --update for --%s") %
              (parserclass.cli_arg_name))
 
-    conn = cli.getConnection(options.connect, conn)
+    #conn = cli.getConnection(options.connect, conn)
+    conn = None
 
     domain = None
     active_xmlobj = None

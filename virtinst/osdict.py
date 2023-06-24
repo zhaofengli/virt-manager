@@ -10,7 +10,7 @@ import datetime
 import os
 import re
 
-from gi.repository import Libosinfo
+#from gi.repository import Libosinfo
 
 from . import xmlutil
 from .logger import log

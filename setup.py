@@ -494,22 +494,22 @@ setuptools.setup(
 
     # These wrappers are generated in our custom build command
     scripts=([
-        "build/virt-manager",
-        "build/virt-clone",
-        "build/virt-install",
+        #"build/virt-manager",
+        #"build/virt-clone",
+        #"build/virt-install",
         "build/virt-xml"]),
 
     data_files=[
-        ("share/glib-2.0/schemas",
-         ["data/org.virt-manager.virt-manager.gschema.xml"]),
-        ("share/virt-manager/ui", glob.glob("ui/*.ui")),
+        #("share/glib-2.0/schemas",
+        # ["data/org.virt-manager.virt-manager.gschema.xml"]),
+        #("share/virt-manager/ui", glob.glob("ui/*.ui")),
 
-        ("share/man/man1", [
-            "man/virt-manager.1",
-            "man/virt-install.1",
-            "man/virt-clone.1",
-            "man/virt-xml.1"
-        ]),
+        #("share/man/man1", [
+        #    "man/virt-manager.1",
+        #    "man/virt-install.1",
+        #    "man/virt-clone.1",
+        #    "man/virt-xml.1"
+        #]),
 
         ("share/virt-manager/virtManager", glob.glob("virtManager/*.py")),
         ("share/virt-manager/virtManager/details",
@@ -538,7 +538,7 @@ setuptools.setup(
         'build_i18n': my_build_i18n,
 
         'install': my_install,
-        'install_egg_info': my_egg_info,
+        #'install_egg_info': my_egg_info,
 
         'configure': configure,
 

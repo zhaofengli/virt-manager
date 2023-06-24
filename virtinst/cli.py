@@ -26,10 +26,10 @@ from .devices import (Device, DeviceController, DeviceDisk, DeviceGraphics,
 from .guest import Guest
 from .logger import log, reset_logging
 from .nodedev import NodeDevice
-from .osdict import OSDB
+#from .osdict import OSDB
 from .storage import StoragePool, StorageVolume
-from .install.unattended import UnattendedData
-from .install.cloudinit import CloudInitData
+#from .install.unattended import UnattendedData
+#from .install.cloudinit import CloudInitData
 
 
 HAS_VIRTVIEWER = shutil.which("virt-viewer")

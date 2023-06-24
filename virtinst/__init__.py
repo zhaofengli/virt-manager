@@ -5,8 +5,8 @@
 
 # pylint: disable=wrong-import-position
 
-import gi
-gi.require_version('Libosinfo', '1.0')
+#import gi
+#gi.require_version('Libosinfo', '1.0')
 
 from virtinst.buildconfig import BuildConfig
 
@@ -57,7 +57,7 @@ from virtinst.storage import StoragePool, StorageVolume
 
 from virtinst.devices import *  # pylint: disable=wildcard-import
 
-from virtinst.install.installer import Installer
+#from virtinst.install.installer import Installer
 
 from virtinst.guest import Guest
 from virtinst.cloner import Cloner
